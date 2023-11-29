@@ -36,6 +36,20 @@ const posts = [
     ],
     publishedAt: new Date('2023-11-28 10:00:00'),
   },
+  {
+    id: 3,
+    author: {
+      avatarUrl: 'https://github.com/gaturama.png',
+      name: 'Gabriel Oliveira',
+      role: 'Developer'
+    },
+    content: [
+      { type: 'paragrath', content: 'Caros colegas'},
+      { type: 'paragrath', content: 'Compartilho com entusiasmo minha jornada profissional, marcada por desafios superados e aprendizados constantes. Minha paixão pela excelência e inovação me impulsiona a encontrar soluções criativas em TI.'},
+      {type: 'link', content: 'LinkedIn'},
+    ],
+    publishedAt: new Date('2023-11-29 10:00:00'),
+  },
 ]
 
 export function App() {
